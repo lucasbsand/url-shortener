@@ -1,5 +1,5 @@
 async function getShortenedLink(url: string) {
-  const endpoint = import.meta.env.VITE_ENDPOINT;
+  const endpoint = "https://cleanuri-proxy.onrender.com/shorten";
   const headers = {
     "Content-Type": "application/json",
   };
