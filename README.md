@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/lucasbsand/url-shortener](https://github.com/lucasbsand/url-shortener)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 - 
 ### Built with
