@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/lucasbsand/url-shortener](https://github.com/lucasbsand/url-shortener)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-shortening-api-landing-page-pevWwSOgM6](https://www.frontendmentor.io/solutions/responsive-shortening-api-landing-page-pevWwSOgM6)
+- Live Site URL: [https://url-shortener-ten-amber.vercel.app/](https://url-shortener-ten-amber.vercel.app/)
 - 
 ### Built with
 
