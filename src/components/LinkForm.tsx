@@ -80,8 +80,9 @@ function LinkForm() {
         <button
           className={clsx(
             "get-started-button w-full rounded px-0 md:w-fit md:px-8",
-            loading && "animate-pulse",
+            loading && "animate-pulse cursor-not-allowed",
           )}
+          disabled={loading}
           type="submit"
         >
           Shorten It!
