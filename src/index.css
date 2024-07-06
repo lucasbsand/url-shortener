@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-lg font-bold text-white hover:text-very-dark-violet md:text-grayish-violet;
+  }
+
+  .get-started-button {
+    @apply w-fit bg-cyan px-10 py-3 text-lg font-bold text-white hover:brightness-110;
+  }
+
+  .footer-container {
+    @apply flex flex-col items-center gap-y-2 lg:items-start;
+  }
+
+  .footer-titles {
+    @apply mb-2 font-bold text-white;
+  }
+
+  .footer-links {
+    @apply text-gray hover:text-cyan;
+  }
+
+  .footer-medias {
+    @apply fill-white transition group-hover:fill-cyan;
+  }
+
+  .bg-desktop {
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
