@@ -1,7 +1,11 @@
 async function getShortenedLink(url: string) {
-  const endpoint = "https://cleanuri-proxy.onrender.com/shorten";
+  const API_KEY =
+    "SjpQhiuTrDFn2RWFWzdMOKiUOBTh4M0kqXQ6mnAs8tSnpLzBr9PnYv1KC7vU";
+  const endpoint = "https://api.tinyurl.com/create";
+
   const headers = {
     "Content-Type": "application/json",
+    Authorization: `Bearer ${API_KEY}`,
   };
 
   try {
@@ -12,8 +16,9 @@ async function getShortenedLink(url: string) {
     });
 
     if (!res.ok) console.error("Request error.");
+
     const data = await res.json();
-    return data.shortenedUrl;
+    return data.data.tiny_url;
   } catch (error) {
     console.error(error);
   }
